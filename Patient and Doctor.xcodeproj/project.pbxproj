@@ -10,6 +10,8 @@
 		C6E46045229C5BE800B72C06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E46044229C5BE800B72C06 /* main.m */; };
 		C6E4604D229C5C1D00B72C06 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E4604C229C5C1D00B72C06 /* Patient.m */; };
 		C6E46050229C5CAB00B72C06 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E4604F229C5CAB00B72C06 /* Doctor.m */; };
+		C6E4605322A9A4E400B72C06 /* Symptom.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E4605222A9A4E400B72C06 /* Symptom.m */; };
+		C6E4605622A9A4F700B72C06 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E4605522A9A4F700B72C06 /* Prescription.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		C6E4604C229C5C1D00B72C06 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 		C6E4604E229C5CAB00B72C06 /* Doctor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Doctor.h; sourceTree = "<group>"; };
 		C6E4604F229C5CAB00B72C06 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
+		C6E4605122A9A4E400B72C06 /* Symptom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Symptom.h; sourceTree = "<group>"; };
+		C6E4605222A9A4E400B72C06 /* Symptom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Symptom.m; sourceTree = "<group>"; };
+		C6E4605422A9A4F700B72C06 /* Prescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		C6E4605522A9A4F700B72C06 /* Prescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 				C6E4604C229C5C1D00B72C06 /* Patient.m */,
 				C6E4604E229C5CAB00B72C06 /* Doctor.h */,
 				C6E4604F229C5CAB00B72C06 /* Doctor.m */,
+				C6E4605122A9A4E400B72C06 /* Symptom.h */,
+				C6E4605222A9A4E400B72C06 /* Symptom.m */,
+				C6E4605422A9A4F700B72C06 /* Prescription.h */,
+				C6E4605522A9A4F700B72C06 /* Prescription.m */,
 			);
 			path = "Patient and Doctor";
 			sourceTree = "<group>";
@@ -129,8 +139,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6E46045229C5BE800B72C06 /* main.m in Sources */,
+				C6E4605322A9A4E400B72C06 /* Symptom.m in Sources */,
 				C6E4604D229C5C1D00B72C06 /* Patient.m in Sources */,
 				C6E46050229C5CAB00B72C06 /* Doctor.m in Sources */,
+				C6E4605622A9A4F700B72C06 /* Prescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

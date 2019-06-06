@@ -23,4 +23,14 @@
     }
     return patient.healthCard;
 }
+-(Prescription *)requestMedicationForPatient: (Patient *) patient {
+    if ([self visit:patient]) {
+        return [self createPrescription:patient.symptom];
+    }
+    return NULL;
+}
+-(Prescription *)createPrescription: (Symptom *) symptom {
+    Prescription * prescription = [[Prescription alloc]init];
+    return prescription;
+}
 @end

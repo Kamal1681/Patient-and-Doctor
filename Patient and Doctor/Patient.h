@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Symptom.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Patient : NSObject
@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) NSInteger age;
 @property (nonatomic, strong) NSString * name;
 @property (nonatomic) BOOL healthCard;
+@property (nonatomic, strong) Symptom * symptom;
 -(instancetype)initWithName: (NSString *)name andAge: (NSInteger)age;
 @end
 

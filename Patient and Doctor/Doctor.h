@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Patient.h"
+#import "Prescription.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Doctor : NSObject
@@ -16,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableArray <Patient *> * patientList;
 -(instancetype)initWithName: (NSString *)name andSpecialization: (NSString *)specialization;
 -(BOOL)visit: (Patient *) patient;
+-(Prescription *)requestMedicationForPatient: (Patient *) patient;
+-(Prescription *)createPrescription: (Symptom *) symptom;
 @end
 
 NS_ASSUME_NONNULL_END
